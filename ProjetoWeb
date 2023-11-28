@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Home </title>
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        
+    </head>
+
+    <body id="corpo">
+        <header>
+            <div class="navbar">
+                <center><img src="imagens/mosteirologo.png" width="150px" height="95px"></center>
+            
+                <nav>
+                    <ul class="elementos">
+                        <li class="nav-el"><a href="#corpo">Home</a></li>
+                        <li class="nav-el"><a href="#sobre">Sobre</a></li>
+                        <li class="nav-el"><a href="#localizacao">Localização</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <img class="imagem" src="imagens/cabecalho.jpg">
+
+        </header>
+        
+        <div id="container">
+            
+            <div id="sobre" class="coluna col-100 verdana">
+            
+                <h1 class="titulo">Sobre</h1>
+
+                <center><h3 class="titulo">Mosteiro Zen Morro da Vargem</h3></center>
+                
+                <p>O Mosteiro Zen Morro da Vargem se estabeleceu segundo a secular escola Soto Zen, introduzida no Japão no século XIII pelo Mestre Dogen Zenji (1200-1253), fundador do mosteiro Eiheiji, em 1244. Ao longo de sua vida, Mestre Dogen destacava a importância da simplicidade, disciplina e da prática do Zazen, a Não-Ação.</p>
+            
+                <p>O cotidiano no mosteiro é cercado por disciplina e voltado para a leveza das posturas e a liberdade da mente. O bom humor é marca registrada no cotidiano dos monges. Brincadeiras, respostas inesperadas e vivacidade nos mínimos gestos são tradições no Zen Budismo.</p>
+
+                <p>Longe de misticismos, o Zen transmite seus ensinamentos sem dogmatismos, muitas vezes com histórias engraçadas e desconcertantes.</p>
+
+                <center><img src="imagens/antigamente3.jpg" height="200px"> <img src="imagens/antigamente.jpg" height="200px"> <img src="imagens/antigamente2.png" height="200px"> <img src="imagens/antigamente4.png" height="200px"></center>
+
+                <center><h3 class="titulo">O primeiro mosteiro Zen da América Latina</h3></center>
+
+                <p>Corriam os últimos dias do inverno de 1974 quando foi fundado o primeiro mosteiro zen budista da América Latina, pelos mestres Ryohan Shingu, Renpo Niwa Zenji e Ikko Narazaki. Na época, a região do Morro da Vargem tinha sua beleza arranhada por um processo de devastação que causava grande desequilíbrio. Apenas algumas manchas de vegetação resistiam, num último esforço de lembrar aos homens que aquelas terras um dia estiveram cobertas de rica Mata Atlântica.</p>
+
+                <p>No início, muitas dificuldades tiveram que ser vencidas. Os templos funcionavam em casebres de madeira com telhados de lascas de árvores, cobertos com palha de palmeira. Tudo era feito à luz de lamparina e o acesso era difícil, por trilhas íngremes escorregadias e esburacadas. Levou anos para que o lótus búdico plantado em 1974 florescesse com firmeza no alto do Morro da Vargem. 
+                
+                <p>Hoje, a atividade monástica é cotidiana e ininterrupta, seguindo a tradição dos ancestrais mosteiros japoneses. Milhares de árvores foram plantadas no projeto de recuperação da Mata Atlântica e diversos grupos de estudantes visitam as trilhas ao redor dos templos em programas de educação ambiental.</p>
+
+                <p>O primeiro mosteiro budista da América Latina é hoje um centro onde o budismo Soto Zen se une à realidade brasileira para transmitir os milenares ensinamentos do Buda, ajudando a solucionar os problemas locais.</p>
+            
+                <center><img src="imagens/budas.jpg" height="200px"> <img src="imagens/budas2.jpg" height="200px"> <img src="imagens/paisagem.jpg" height="200px"> <img src="imagens/paisagem2.jpg" height="200px"> <img src="imagens/sino.jpg" height="200px"></center>
+
+            </div>   
+            
+            <div id="localizacao" class="coluna col-100 verdana">
+            
+                <h1 class="titulo">Localização</h1>
+            
+                <p>Rodovia BR-101 Norte Km 217, s/nº</p>
+                <p>CEP: 29.670-000</p>
+                <p>Ibiraçu, Espírito Santo - Brasil</p>
+                
+                <p>Tel.: +55 (27) 3257-3030</p>
+                
+                <p>Cel.: +55 (27) 99743-6285</p>
+                
+                <p>WhatsApp: +55 (27) 99721-2930</p>
+                
+                <p>Atendimento da secretaria:</p>
+                <p>De segunda a sexta-feira, das 07h às 11h e das 12h às 16h</p>
+        
+            </div>
+        </div>
+
+        <footer>
+            <p class="rodape verdana">Create by Leonam and Caio</p>
+        </footer>
+
+    </body>
+</html>
+
+#CSS
+#container {
+    margin: 0 auto;
+    height: 2000px;
+    width: 1000px;
+}
+
+#corpo {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.elementos {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    width: 1000px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Verdana';
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a:link {
+    color: #1748aa;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #1748aa;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #031b4b;
+    text-decoration: none;
+}
+
+.imagem {
+    width: 100%;
+    margin-top: 145px;
+}
+
+.titulo {
+    color: #0c2963;
+    margin-top: 50px;
+}
+
+.coluna {
+    float: left;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.verdana {
+    font-family: 'Verdana';
+    font-size: 15px;
+}
+
+.rodape {
+    height: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#JS
+window.onload = function()
+{
+    alert(" Bem-vindo ao Mosteiro Zen");
+   
+    document.getElementById('corpo').style.display = 'block';
+};
